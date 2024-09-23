@@ -17,9 +17,11 @@ h2{
 
 
 .container{
-    width: 100%;
+    width: 100vh;
     
 }
+
+
 
 .tela{
     display: grid;
