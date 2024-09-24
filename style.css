@@ -65,7 +65,7 @@ textarea.tb_area {
 
 @media (max-width: 768px) {
     textarea.tb_area {
-        width: 100%; /* Ajustar para telas menores */
+        width: 100vw; /* Ajustar para telas menores */
     }
 }
 
