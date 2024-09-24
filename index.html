@@ -13,24 +13,39 @@
 
 
 <body>
-    <section class="container-fluid container">
-        <main class="container">
-            <div class="tela">
-                <h2>Calculádora IMC:</h2>
-                <input type="text" placeholder="Nome" id="texboxName" class="form-control w-auto">
-                <input type="number" placeholder="Altura" id="texboxAltura" class="form-control w-auto">
-                <input type="number" placeholder="Peso" id="textboxPeso" class="form-control w-auto">
-                <textarea id="textboxResultado" rows="4" cols="50" class="tb_area form-control text-center w-auto" disabled></textarea>
-                <button class="btn btn-primary btnCalc" id="btnCalcular">Calcular</button>
-            </div>
-        </main>
+    <div class="bg">
+        <section class="container-fluid container">
+            <main class="container">
+                <div class="tela">
+                    <h2>Calculádora IMC:</h2>
 
+                    <label for="textboxName" class="lb_textbox">Nome:</label>
+                    <input type="text" placeholder="Exemplo: Rafael" id="texboxName" class="form-control w-auto">
+    
+                    <label for="textboxAltura" class="lb_textbox">Altura:</label>
+                    <input type="number" placeholder="Exemplo: 1.75" id="texboxAltura" class="form-control w-auto">
+    
+                    <label for="textboxPeso" class="lb_textbox">Peso:</label>
+                    <input type="number" placeholder="Exemplo: 70,32" id="textboxPeso" class="form-control w-auto">
+    
+                    <label for="textboxIdade" class="lb_textbox">Idade:</label>
+                    <input type="number" placeholder="Exemplo: 23" id="textboxIdade" class="form-control w-auto">
+    
+                    <label for="textboxResultado" class="lb_resultado">Resultado:</label>
+                    <textarea id="textboxResultado" rows="4" cols="50" class="tb_area form-control text-center w-auto" disabled></textarea>
 
+                    <div>
+                        <button class="btn btn-primary btnCalc" id="btnCalcular">Calcular</button>
+                        <button class="btn btn-primary btnCalc" id="btnLimpar">Limpar</button>
+                    </div>
+                    
+                </div>
+            </main>
+        </section>
+    </div>
+    
 
-
-    </section>
-
-    <footer class="container-fluid bg-primary p-3 text-center">
+    <footer class="container-fluid bg-primary p-2 text-center">
         <p class="fot">Desenvolvido por Rafael da Silva</p>
     </footer>
 
