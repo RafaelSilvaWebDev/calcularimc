@@ -54,6 +54,22 @@ h2{
     padding-top: 20px;
 }
 
+/* Responsividade para o textarea */
+textarea.tb_area {
+    width: 100%;  /* Ocupar 100% da largura no container */
+    box-sizing: border-box;  /* Garantir que o padding seja incluído na largura total */
+    height: auto;  /* Altura automática */
+    min-height: 120px;  /* Altura mínima para mobile */
+    resize: vertical;  /* Permitir redimensionamento vertical */
+}
+
+@media (max-width: 768px) {
+    textarea.tb_area {
+        width: 100%; /* Ajustar para telas menores */
+    }
+}
+
+
 /* Ajustes para responsividade em dispositivos móveis */
 @media (max-width: 768px) {
     h2 {
