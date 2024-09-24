@@ -29,6 +29,10 @@ h2{
     gap: 10px;
 }
 
+.btnsBox{
+    display: flex;
+    gap: 10px;
+}
 
 .resultado{
     height: 100px;
