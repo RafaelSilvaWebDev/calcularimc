@@ -53,7 +53,7 @@ botaoCalc.addEventListener('click', function() {
     const pesoIdealMaximo = 24.9 * Math.pow(dados.altura, 2);
 
     // Exibição do resultado
-    tb_resultado.value = `${dados.nome}, seu IMC é ${imc.toFixed(2)} (${mensagem}),\nSeu peso mínimo ideal é ${pesoIdealMinimo.toFixed(2)} kg e seu peso máximo ideal é ${pesoIdealMaximo.toFixed(2)} kg.`;
+    tb_resultado.value = `${dados.nome}, seu IMC é ${imc.toFixed(2)} (${mensagem}),Seu peso mínimo ideal é ${pesoIdealMinimo.toFixed(2)} kg e seu peso máximo ideal é ${pesoIdealMaximo.toFixed(2)} kg.`;
 });
 
 botaoLp.addEventListener('click',function(){
