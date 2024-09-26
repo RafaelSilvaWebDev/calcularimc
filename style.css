@@ -51,23 +51,23 @@ h2{
 }
 
 .lb_resultado{
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
-/* Responsividade para o textarea */
+
 textarea.tb_area {
-    width: 100%;  /* Ocupar 100% da largura no container */
-    box-sizing: border-box;  /* Garantir que o padding seja incluído na largura total */
-    height: auto;  /* Altura automática */
-    min-height: 120px;  /* Altura mínima para mobile */
-    resize: vertical;  /* Permitir redimensionamento vertical */
+    width: 35%; 
+    box-sizing: border-box;  
+    height: auto;  
+    min-height: 120px;  
+    resize: vertical;  
 }
 
 @media (max-width: 768px) {
     textarea.tb_area {
-        width: 100vw; /* Ajustar para telas menores */
+        width: 100%; 
     }
-}
+} 
 
 
 /* Ajustes para responsividade em dispositivos móveis */
@@ -76,10 +76,6 @@ textarea.tb_area {
         font-size: 24px;
     }
 
-    .lb_textbox {
-        padding-right: 0;
-        text-align: left;
-    }
 
     .btnCalc {
         width: 100%;
